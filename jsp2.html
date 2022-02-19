@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jsp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="small-container">
+    <h1>Number System Conversion</h1>
+    <div class="option">
+    <select class="iType" id="ipType">
+        <option value="ipbin">BINARY</option>
+        <option value="ipoct">OCTAL</option>
+        <option value="ipdec">DECIMAL</option>
+        <option value="iphex">HEXADECIMAL</option>
+    </select>
+    <select class="oType" id="opType">
+        <option value="opbin">BINARY</option>
+        <option value="opoct">OCTAL</option>
+        <option value="opdec">DECIMAL</option>
+        <option value="ophex">HEXADECIMAL</option>
+    </select>
+</div>
+    <button class="btn" onclick="convert()">CONVERT</button>
+    <!-- <button class="btn" id="swapBtn" onclick="swap()">SWAP</button> -->
+    <input class="inputNum" id="ipNum">
+  
+      <textarea name="oNum" id="opNum" cols="23" rows="2"></textarea>
+    
+</div>
+</div>
+    <script src="jsp2.js"></script>
+</body>
+</html>
