@@ -101,8 +101,8 @@ function hex2dec(inputNum)
     return parseInt(inputNum, 16).toString(10);
 }
     function swap(){
-    let currentValue = oType.value;
-    let outPutValue = iType.value;
-    iType.value = currentValue;
-    oType.value = outPutValue;
+    let outPutValue = oType.value;
+    let currentValue = iType.value;
+    iType.value = outPutValue;
+    oType.value = currentValue;
 }
